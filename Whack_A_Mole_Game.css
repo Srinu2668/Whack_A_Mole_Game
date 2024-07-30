@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("marioBGI.jpg");
+    background-size: cover;
+}
+.img
+{
+    height: 100%;
+    width: 63%;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(5px);
+    top: 0px;
+    right: 0px;
+}
+.records
+{
+    height: 100%;
+    width:25%;
+    backdrop-filter: blur(1px);
+}
+.gameOver
+{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgba(0, 128, 0, 0.49); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    text-decoration: underline;
+    font-weight: 500;
+    color: white;
+}
+.gameOver p
+{
+    display: none;
+}
+.game
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(225, 225, 13, 1); */
+}
+.wells
+{
+    height: 85%;
+    width: 100%;
+    /* background-color: rgba(51, 0, 255, 0.589); */
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-rows: 34% 33% 33%;
+}
+.mai
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.pic
+{
+    height: 50%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+}
+.well
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    /* background-color: rgb(221, 192, 255); */
+}
+.speedRange
+{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: 32px;
+    color: white;
+}
+.speedRange button
+{
+    width: 80%;
+    height: 32px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    color: black;
+}
+.start_But
+{
+    width: 100%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#start  
+{
+    width: 80%;
+    font-size: 1.4rem;
+    padding: 3px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#timer
+{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+#points
+{
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+}
